@@ -23,8 +23,8 @@ const NavFooter = () => {
                 </div>
             </div>
             <div className="font-bold px-4 flex gap-10">
-                <span>Login</span>
-                <Link href="/community/register">Register</Link>
+                <Link href="/main/register">Login</Link>
+                <Link href="/main/register">Register</Link>
             </div>
 
         </div>
