@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import React from 'react'
 
-const Header = () => {
+const HeaderCommunity = () => {
     return (
         <div className="h-[22vh] bg-bg-dark flex items-center justify-between">
             <div className="flex gap-6">
@@ -33,4 +33,4 @@ const NavItem = ({text, link}) => {
     )
 }
 
-export default Header
+export default HeaderCommunity

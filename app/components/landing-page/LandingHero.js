@@ -16,8 +16,8 @@ const LandingHero = () => {
       </div>
       {/* Button Row */}
       <div className="flex gap-20 justify-between">
-        <NavButton text="Start Browsing!" link="/community" />
-        <NavButton text="Join Community!" link="#" />
+        <NavButton text="Start Browsing!" link="/main" />
+        <NavButton text="Join Community!" link="/community" />
       </div>
 
     </section>
